@@ -35,4 +35,4 @@ class CSVToExcel:
 csv_file = r'data\homework_1.csv'
 converter = CSVToExcel(csv_file)
 workbook = converter.convert()
-workbook.save('homework_1.xlsx')
+workbook.save('data\homework_1.xlsx')
